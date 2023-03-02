@@ -36,4 +36,16 @@
 
 ![5](images/5.png)
 
+<br />
+
+------------------------------------
+
+## ***- To learn in Section 4:***
+
+1. ### How to import Data from CSV,Excel and Web files. ✅
+2. ### After importing data we do some Visualizing. ✅
+3. ### Import Real-time Streaming Data using Power bi and PubNub webpage then create a Dashboard. ✅
+4. ### Install SQL Server and import data to Power BI. ✅
+
+5. ### Import Data from OData feed and from Folders in Power BI. ✅
 
