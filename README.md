@@ -49,3 +49,25 @@
 
 5. ### Import Data from OData feed and from Folders in Power BI. ✅
 
+6. ### Dataflow and how to create Gateway and Entitiies. ✅
+
+-------------------------------------
+
+## **What are Dashboards:**
+### A Power BI dashboard is a single page, often called a canvas, that uses visualizations to tell a story. Because it is limited to one page, a well-designed dashboard contains only the most-important elements of that story. The visualizations you see on the dashboard are called tiles and are pinned to the dashboard from reports.
+
+
+![6](images/6.png)
+
+<br />
+
+
+![7](images/7.png)
+
+<br />
+
+## - **Dashboard Menu**:
+
+![8](images/8.png)
+
+<br />
