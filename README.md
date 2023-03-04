@@ -40,7 +40,7 @@
 
 ------------------------------------
 
-## ***- To learn in Section 4:***
+## ***- Data Importing:***
 
 1. ### How to import Data from CSV,Excel and Web files. ✅
 2. ### After importing data we do some Visualizing. ✅
@@ -71,3 +71,26 @@
 ![8](images/8.png)
 
 <br />
+
+
+------------------------------------
+
+## ***- Data Cleaning:***
+
+1. ### How to remove Rows. ✅
+2. ### How to remove Columns. ✅
+3. ### How to make rows as first headers. ✅
+4. ### How to create columns. ✅
+5. ### How to remove duplicates. ✅
+6. ### How to unpivot columns and  split them. ✅
+
+> ___NOTE:___  The `PIVOT` is used to convert table rows into columns, while the `UNPIVOT` converts columns back to rows.
+
+>To finde `Unpivot Columns` we need to go to `Transform`.
+
+7. ### How to change Data type and replace values. ✅
+8. ### How to append and merge Queries by combine the files into one. (States file into one) ✅
+
+> ___NOTE___:  
+ **- Append:** means results of two (or more) queries (which are tables themselves) will be combined into one query.\
+**- Merge:** is another type of combining queries which are based on matching rows, rather than columns. The output of Merge will be a single query
