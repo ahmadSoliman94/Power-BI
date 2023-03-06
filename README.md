@@ -94,3 +94,15 @@
 > ___NOTE___:  
  **- Append:** means results of two (or more) queries (which are tables themselves) will be combined into one query.\
 **- Merge:** is another type of combining queries which are based on matching rows, rather than columns. The output of Merge will be a single query
+
+--------------------------------------------
+
+## ***- Visuals:***
+
+- ### What chats or graph is right to use ?
+![9](images/9.png)
+
+<br />
+
+- ### Visualisations Properties:
+![10](images/10.png)
