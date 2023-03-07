@@ -145,3 +145,30 @@
 ![17](images/17.png)
 
 <br />
+
+7. ### __Combo chart:__ is the combination of two charts. A combo chart is a single visualization that combines a line chart and a column chart. Combining the 2 charts into one lets you make a quicker comparison of the data.
+
+### -  Combo charts are a great choice:
+
+* when you have a line chart and a column chart with the same X axis.
+* to compare multiple measures with different value ranges.
+* to illustrate the correlation between two measures in one visualization.
+* to check whether one measure meet the target which is defined by another measure
+* to conserve canvas space.
+
+![17](images/18.png)
+
+<br />
+
+8. ### __Scatter chart:__ always has two value axes to show one set of numerical data along a horizontal axis and another set of numerical values along a vertical axis. The chart displays points at the intersection of an x and y numerical value, combining these values into single data points. Scatter plots are an effective way to give you a sense of trends, concentrations and outliers that will direct you to where you want to focus your investigation efforts further.
+
+<br />
+
+### - Scatter Charts are a great choice :
+* to show relationships between 2 (scatter).
+* to plot two groups of numbers as one series of xy coordinates.
+* instead of a line chart when you want to change the scale of the horizontal axis
+* to turn the horizontal axis into a logarithmic scale.
+* to display worksheet data that includes pairs or grouped sets of values. In a scatter chart, you can adjust the independent scales of the axes to reveal more information about the grouped values.
+* to show patterns in large sets of data, for example by showing linear or non-linear trends, clusters, and outliers.
+* to compare large numbers of data points without regard to time. The more data that you include in a scatter chart, the better the comparisons that you can make.
