@@ -99,10 +99,49 @@
 
 ## ***- Visuals:***
 
-- ### What chats or graph is right to use ?
+- ### What chats or graph is right to use ? ✅
 ![9](images/9.png)
 
 <br />
 
-- ### Visualisations Properties:
+- ### Visualisations Properties: ✅
 ![10](images/10.png)
+
+<br />
+
+1. ### **Bar Chart:** highlight differences between categories, clearly show trends and outliers, and reveal historical highs and lows at a glance. ✅
+
+![11](images/11.png)
+
+<br />
+
+2. ###  __Line chart:__ is often used to visualize a trend in data over intervals of time – a time series – thus the line is often drawn chronologically. ✅
+
+![12](images/12.png)
+
+
+<br />
+
+3. ### __Pie graph (or pie chart):__ is a specialized graph used in statistics. The independent variable is plotted around a circle in either a clockwise direction or a counterclockwise direction.The dependent variable (usually a percentage) is rendered as an arc whose measure is proportional to the magnitude of the quantity. ✅
+
+![13](images/13.png)
+
+<br />
+
+4. ### __Stacked bar charts:__  is a graph that is used to break down and compare parts of a whole. Each bar in the chart represents a whole, and segments in the bar represent different parts or categories of that whole. ✅
+
+![15](images/15.png)
+<br />
+
+5. ###  __Clustered column chart:__ displays more than one data series in clustered vertical columns. Each data series shares the same axis labels, so vertical bars are grouped by category. ✅
+
+![14](images/14.png)
+
+<br />
+
+6. ### __Area charts:__ emphasize the magnitude of change over time, and can be used to draw attention to the total value across a trend. For example, data that represents profit over time can be plotted in an area chart to emphasize the total profit.
+
+![16](images/16.png)
+![17](images/17.png)
+
+<br />
