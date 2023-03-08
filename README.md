@@ -156,7 +156,7 @@
 * to check whether one measure meet the target which is defined by another measure
 * to conserve canvas space.
 
-![17](images/18.png)
+![18](images/18.png)
 
 <br />
 
@@ -172,3 +172,38 @@
 * to display worksheet data that includes pairs or grouped sets of values. In a scatter chart, you can adjust the independent scales of the axes to reveal more information about the grouped values.
 * to show patterns in large sets of data, for example by showing linear or non-linear trends, clusters, and outliers.
 * to compare large numbers of data points without regard to time. The more data that you include in a scatter chart, the better the comparisons that you can make.
+
+<br />
+
+9. ### __Treemaps:__ display hierarchical data as a set of nested rectangles. Each level of the hierarchy is represented by a colored rectangle (often called a "branch") containing other rectangles ("leaves"). The space inside each rectangle is allocated based on the quantitative value being measured, with the rectangles arranged in size from top left (largest) to bottom right (smallest). If you are looking to see your data at a glance and discover how the different pieces relate to the whole? Then treemaps are for you. These charts use a series of rectangles, nested within other rectangles, to show hierarchical data as a proportion to the whole.
+
+![19](images/19.png)
+
+<br />
+
+![20](images/20.png)
+
+<br />
+
+10. ### __Funnel chart:__ helps you visualize a linear process that has sequential connected stages. At a glance, the shape of the funnel conveys the health of the process you're tracking. Each funnel stage represents a percentage of the total. So, in most cases, a funnel chart is shaped like a funnel with the first stage being the largest, and each subsequent stage smaller than its predecessor. 
+
+![21](images/21.png)
+
+<br />
+
+### - Funnel charts are a great choice:
+* when the data is sequential and moves through at least 4 stages.
+* when the number of "items" in the first stage is expected to be greater than the number in the final stage.
+* to calculate potential (revenue/sales/deals/etc.) by stages.
+* to calculate and track conversion and retention rates.
+* to reveal bottlenecks in a linear process.
+* to track a shopping cart workflow.
+* to track the progress and success of click-through advertising/marketing campaigns.
+
+<br />
+
+### - Funnel charts:
+* Can be pinned from reports and from Q&A.
+* Can be sorted.
+* Support multiples.
+* Can be highlighted and cross-filtered by other visualizations on the same report page.
