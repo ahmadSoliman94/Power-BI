@@ -207,3 +207,50 @@
 * Can be sorted.
 * Support multiples.
 * Can be highlighted and cross-filtered by other visualizations on the same report page.
+
+<br />
+
+11. ### __Card charts:__ Sometimes a single number is the most important thing you want to track in your Power BI dashboard or report, such as total sales, market share year over year, or total opportunities.
+
+![22](images/22.png)
+
+<br />
+
+12. ### __Guage Chart:__ A radial gauge chart has a circular arc and displays a single value that measures progress toward a goal/KPI. The goal, or target value, is represented by the line (needle). Progress toward that goal is represented by the shading. And the value that represents that progress is shown in bold inside the arc. All possible values are spread evenly along the arc, from the minimum (left-most value) to the maximum (right-most value). Till now we are discussing visualization comparing different catetories and different values. Sometimes you want to track single value and metric that changes over time that shows you the progress towards particular target.
+
+<br />
+
+### - Radial gauges are a great choice to:
+* show progress toward a goal.
+* represent a percentile measure, like a KPI.
+* show the health of a single measure.
+* display information that can be quickly scanned and understood.
+
+![23](images/23.png)
+
+<br />
+
+13. ### __KPIs:__A Key Performance Indicator (KPI) is a visual cue that communicates the amout of progress made toward a measureable goal. A Key Performance Indicator (KPI) is based on a specific measure and is designed to help you evaluate the current value and status of a metric against a defined target. Therefore, a KPI visual requires a base measure that evaluates to a value and a target measure or value, and a threshold or goal.
+
+<br />
+
+### - KPIs are a great choice:
+* to measure progress (what am I ahead or behind on?)
+* to measure distance to a goal (how far ahead or behind am I?)
+
+![24](images/24.png)
+
+<br />
+
+14.  ### __Matrix:__ A matrix is a grid used to store or display data in a structured format. It is often used synonymously with a table, which contains horizontal rows and vertical columns. While the terms "matrix" and "table" can be used interchangeably, matrixes (or matrices) are considered more flexible than tables. For example, tables generally have a fixed number of rows and columns, while the size of a matrix may change dynamically. The term "matrix" may also be used to refer to a table that has groups of columns within a single row.
+
+![25](images/25.png)
+
+<br />
+
+15. ### __Table:__ is a grid that contains related data in a logical series of rows and columns. It may also contain headers and a row for totals. Tables work well with quantitative comparisons where you are looking at many values for a single category. While the terms "matrix" and "table" can be used interchangeably, matrixes (or matrices) are considered more flexible than tables. For example, tables generally have a fixed number of rows and columns, while the size of a matrix may change dynamically. The term "matrix" may also be used to refer to a table that has groups of columns within a single row.
+
+![26](images/26.png)
+
+<br />
+
