@@ -185,7 +185,7 @@
 
 <br />
 
-10. ### __Funnel chart:__ helps you visualize a linear process that has sequential connected stages. At a glance, the shape of the funnel conveys the health of the process you're tracking. Each funnel stage represents a percentage of the total. So, in most cases, a funnel chart is shaped like a funnel with the first stage being the largest, and each subsequent stage smaller than its predecessor. 
+10. ### __Funnel chart:__ helps you visualize a linear process that has sequential connected stages. At a glance, the shape of the funnel conveys the health of the process you're tracking. Each funnel stage represents a percentage of the total. So, in most cases, a funnel chart is shaped like a funnel with the first stage being the largest, and each subsequent stage smaller than its predecessor. ✅
 
 ![21](images/21.png)
 
@@ -216,7 +216,7 @@
 
 <br />
 
-12. ### __Guage Chart:__ A radial gauge chart has a circular arc and displays a single value that measures progress toward a goal/KPI. The goal, or target value, is represented by the line (needle). Progress toward that goal is represented by the shading. And the value that represents that progress is shown in bold inside the arc. All possible values are spread evenly along the arc, from the minimum (left-most value) to the maximum (right-most value). Till now we are discussing visualization comparing different catetories and different values. Sometimes you want to track single value and metric that changes over time that shows you the progress towards particular target.
+12. ### __Guage Chart:__ A radial gauge chart has a circular arc and displays a single value that measures progress toward a goal/KPI. The goal, or target value, is represented by the line (needle). Progress toward that goal is represented by the shading. And the value that represents that progress is shown in bold inside the arc. All possible values are spread evenly along the arc, from the minimum (left-most value) to the maximum (right-most value). Till now we are discussing visualization comparing different catetories and different values. Sometimes you want to track single value and metric that changes over time that shows you the progress towards particular target. ✅
 
 <br />
 
@@ -230,7 +230,7 @@
 
 <br />
 
-13. ### __KPIs:__A Key Performance Indicator (KPI) is a visual cue that communicates the amout of progress made toward a measureable goal. A Key Performance Indicator (KPI) is based on a specific measure and is designed to help you evaluate the current value and status of a metric against a defined target. Therefore, a KPI visual requires a base measure that evaluates to a value and a target measure or value, and a threshold or goal.
+13. ### __KPIs:__A Key Performance Indicator (KPI) is a visual cue that communicates the amout of progress made toward a measureable goal. A Key Performance Indicator (KPI) is based on a specific measure and is designed to help you evaluate the current value and status of a metric against a defined target. Therefore, a KPI visual requires a base measure that evaluates to a value and a target measure or value, and a threshold or goal. ✅
 
 <br />
 
@@ -242,15 +242,65 @@
 
 <br />
 
-14.  ### __Matrix:__ A matrix is a grid used to store or display data in a structured format. It is often used synonymously with a table, which contains horizontal rows and vertical columns. While the terms "matrix" and "table" can be used interchangeably, matrixes (or matrices) are considered more flexible than tables. For example, tables generally have a fixed number of rows and columns, while the size of a matrix may change dynamically. The term "matrix" may also be used to refer to a table that has groups of columns within a single row.
+14.  ### __Matrix:__ A matrix is a grid used to store or display data in a structured format. It is often used synonymously with a table, which contains horizontal rows and vertical columns. While the terms "matrix" and "table" can be used interchangeably, matrixes (or matrices) are considered more flexible than tables. For example, tables generally have a fixed number of rows and columns, while the size of a matrix may change dynamically. The term "matrix" may also be used to refer to a table that has groups of columns within a single row. ✅
 
 ![25](images/25.png)
 
 <br />
 
-15. ### __Table:__ is a grid that contains related data in a logical series of rows and columns. It may also contain headers and a row for totals. Tables work well with quantitative comparisons where you are looking at many values for a single category. While the terms "matrix" and "table" can be used interchangeably, matrixes (or matrices) are considered more flexible than tables. For example, tables generally have a fixed number of rows and columns, while the size of a matrix may change dynamically. The term "matrix" may also be used to refer to a table that has groups of columns within a single row.
+15. ### __Table:__ is a grid that contains related data in a logical series of rows and columns. It may also contain headers and a row for totals. Tables work well with quantitative comparisons where you are looking at many values for a single category. While the terms "matrix" and "table" can be used interchangeably, matrixes (or matrices) are considered more flexible than tables. For example, tables generally have a fixed number of rows and columns, while the size of a matrix may change dynamically. The term "matrix" may also be used to refer to a table that has groups of columns within a single row. ✅
 
 ![26](images/26.png)
 
 <br />
 
+15. ### **Text Boxes, Image & Shapes:** Sometimes the titles on visualizations aren’t enough to tell the story. Add text boxes to communicate with the people viewing your reports. Text boxes can describe the report page, a grouping of visuals, or describe an individual visual. They can explain results or better-define a visual, components in the visual, or relationships between visuals. Text boxes can be used to draw attention based on different criteria called out in the text box. ✅
+
+### - Tips:
+
+### Create a text style guide and apply it to all pages of your report. Pick just a few font faces, text sizes, and colors. Apply this style guide to not only textual elements but to the font choices you make within your visualizations (see Titles and labels that are part of the visualizations, below). Set rules for when you’ll use bold, italics, increased font size, certain colors, and more. Try to avoid using all capitalization or underlining.
+
+
+
+### - Shapes:
+### Shapes too can aid navigation and comprehension. Use shapes to group related information together, highlight important data, and use arrows to direct the eye. Shapes help readers understand where to start and how to interpret your report. In design terms, this is often referred to as contrast.
+![27](images/27.png)
+
+<br />
+
+16. ### **Slicers:**  We use filters on the reports which are hidden on the field tab. When users are viewing the report they will not have access to it. For those times we like to put filters on the canvas which are know as slicers. ✅
+
+### - Slicers are a great choice in the following situations.
+* To display commonly-used or important filters on the report canvas for easier access.
+* To make it easier to see the current filtered state without having to open a drop-down list to find the filtering details.
+* When you want to hide columns you don't need but still be able to use them to filter - this makes for narrower, cleaner tables.
+* To create more focused reports - since slicers are floating objects you can put them next to the interesting part of the report you want your users to focus on.
+
+![28](images/28.png)
+
+<br />
+
+17. ### **Maps:** When you have any kind of location data – whether it’s postalcodes, states, abbreviations, country names, or your own custom geocoding – this information is most impactful when seen on a map. A map visually locates your data and gives you geographical context for your metrics. A map uses shading or tinting or patterns to display how a value differs in proportion across a geography or region. Quickly display these relative differences with shading that ranges from light (less-frequent/lower) to dark (more-frequent/more). ✅
+
+<br />
+
+### - Tips :  Use it 
+* to display quantitative information on a map.
+* to show spatial patterns and relationships.
+* when your data is standardized.
+* when working with socioeconomic data.
+* when defined regions are important.
+* to get an overview of the distribution across the geographic locations.
+* Use maps as a filter for other types of charts, graphs, and tables. Combine a map with other relevant data then use it as a filter to drill into your data for robust investigation and discussion of data.
+* Layer bubble charts on top of maps. Bubble charts represent the concentration of data and their varied size is a quick way to understand relative data. By layering bubbles on top of a map it is easy to interpret the geographical impact of
+different data points quickly.
+
+------------------------------------------------------------
+
+## ***- Data Modeling:***
+- ### A data model is a collection of data, calculations, and formatting rules that combine to create an object that can be used to explore, query, and better understand an existing dataset. ✅
+
+- ### Data Modeling allows to :
+    1. Create a data model by joining tables to develop a coherent data structure from multiple separate sources of data. This data model is then used in dashboards.
+    2. Enrich the data model by applying coherent names and data types. 
+    3. Create calculations and prepare the core metrics that you want to use in your analysis and presentations.
