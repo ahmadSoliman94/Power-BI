@@ -303,4 +303,49 @@ different data points quickly.
 - ### Data Modeling allows to :
     1. Create a data model by joining tables to develop a coherent data structure from multiple separate sources of data. This data model is then used in dashboards.
     2. Enrich the data model by applying coherent names and data types. 
-    3. Create calculations and prepare the core metrics that you want to use in your analysis and presentations.
+    3. Create calculations and prepare the core metrics that you want to use in your analysis and presentations. 
+
+<br/>
+
+### -  **Database normalization:** is the process of organizing the fields and tables of a relational database to minimize redundancy. Normalization usually involves dividing large tables into smaller (and less redundant) tables and defining relationships between them. The objective is to isolate data so that additions, deletions, and modifications of a field can be made in just one table and then propagated through the rest of the database using the defined relationships.
+
+
+###  - **Denormalization:** is the process of attempting to optimize the read performance of a database by adding redundant data or by grouping data.In some cases, denormalization is a means of addressing performance or scalability in relational database software.
+<br />
+
+## - **Star Schema vs Snowflake Schema:** 
+- ### Normalization is a key difference between star and snowflake schemas. 
+- ### Snowflake schemas will use less space to store dimension tables. This is because as a rule any normalized database produces far fewer redundant records .
+- ### Denormalized data models increase the chances of data integrity problems. These issues will complicate future modifications and maintenance as well.
+
+### -  Which one to use Snowflake : 
+    * In data warehouses.
+    * When dimension tables require a significant amount of storage space.
+    * If you use tools that require a snowflake schema in the background.
+
+### - Which one to use Star : 
+    * In data marts
+
+### ***Star Schema:***
+
+    - Denormalized Dimensions.
+    - Fact Tables Surrounded by Dimension Tables.
+    - May have data integrity and storage issues.
+
+### ***Snowflake Schema:***
+
+     - Dimensions are Normalized.
+     - Data storage and Integrity issues resolved.
+     - Join Complexity Increases.
+     - Time in queries may increase. 
+
+<br/>
+
+Snowflake            |  Star
+:-------------------------:|:-------------------------:
+![29](images/29.png)  |  ![30](images/30.png) 
+
+<br />
+
+![31](images/31.png) 
+
