@@ -349,3 +349,63 @@ Snowflake            |  Star
 
 ![31](images/31.png) 
 
+---------------------------
+
+
+## <center> **DAX** </center>
+
+## - DAX Reference [Link](https://learn.microsoft.com/en-us/dax/dax-function-reference).
+
+- ### ***DAX:*** is a functional language, which means the full executed code is contained inside a function.
+- ### In DAX, functions can contain other, nested functions, conditional statements, and value references. Execution in DAX starts from the innermost function or parameter, and works outward. In Power BI, DAX formulas are written in a single line, so formatting your functions correctly is important for readability.
+- ### DAX is designed to work with tables, so it has just two primary data types: Numeric and Other. Numeric can include integers, decimals, and currency. Other can include strings and binary objects. This means that if you build your DAX function to work on one type of number, you can be assured that it will work on any other Numeric data.
+- ### DAX uses operator overloading, which means that you can mix data types in your calculations and the results will change based on the type of data used in the inputs. Conversion happens automatically.
+
+<br/>
+
+## -  **DAX Data Types:**
+
+- ### **Whole number (Integer):**
+    - ### DAX has only one Integer data type that can store a 64-bit value. All the internal calculations between integer values in DAX also use a 64-bit value.
+
+- ### **Decimal number (Float):** 
+    - ### A decimal number is always stored as a double-precision floating point value. Do not confuse this DAX data type with the decimal and numeric data type of Transact-SQL: The corresponding data type of a DAX decimal number in SQL is Float.
+
+- ### **Currency (Currency):**
+     - ### The Currency data type stores a fixed decimal number. It can represent four decimal points and it is internally stored as a 64-bit integer value divided by 10,000. All calculations performed between Currency data types always ignore decimals beyond the fourth decimal point. If you need more accuracy, you have to do a conversion to Decimal data type.
+
+- ### **Date (DateTime):**
+    - ### DAX stores dates in a DateTime data type. This format uses a floating point number internally,
+
+- ### **Boolean (TRUE/FALSE):**
+    - ### The Boolean data type is used to express logical conditions. Boolean data types also as numbers where TRUE equals 1 and FALSE equals 0. example :
+    ```dax
+     = [Expense] >  [Budget] etc..
+    ```
+
+- ### **Text (String):**
+    - ### Every string in DAX is stored as a Unicode string, where each character is stored in 16 bits. By default, the comparison between strings is case-insensitive.
+
+- ### **Binary large object (BLOB):**
+    - ### The BLOB data type is used in the data model to store images and it is not accessible in DAX. 
+
+<br/>
+
+## - **Operators:**
+![32](images/32.png)
+
+<br/>
+
+## - **Syntax:**
+![33](images/33.png)
+
+<br/>
+
+## - **Rules to cearte Measures:**
+1. Create a new matrix on a new sheet.
+2. Put Category on Rows.
+3. Right-click on Table "All Measure" and select New Measure.
+4. Give the measure a descriptive name.
+5. Start typing the function and pause so you can read the IntelliSense description of the function and the syntax.
+6. Immediately after writing the function, click back into the formula bar and apply any formatting you want to use.
+7. Add the measure to your matrix so you can see the results.
