@@ -478,3 +478,27 @@ FILTER(table_name,filter)
 ALL(tbale_name | column_name)
 ```
 
+<br />
+
+## -  **Time intelligence functions:**  enable to manipulate data using time periods, including days, months, quarters, and years, and then build and compare calculations over those periods.
+
++ ### **Calenderauto:** returns a table with one column of dates calculated from the model automatically.
+```
+CALEANDERAUTO()
+```
+
++ ### **Calender:** returns a table with one column of all dates between Start date and end date.
+
+```
+CALDANDER(StartDate, EndDate)
+```
+
++ ### **Year:** Returns the year of a date as a four digit integer.
+```
+YEAR(DATE)
+```
+
++ ### **Same period last year:** returns a table that contains a column of dates shifted one year back in time.
+```
+SAMEPERIODLASTYEAR(dates)
+```
