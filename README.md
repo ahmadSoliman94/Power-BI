@@ -409,3 +409,72 @@ Snowflake            |  Star
 5. Start typing the function and pause so you can read the IntelliSense description of the function and the syntax.
 6. Immediately after writing the function, click back into the formula bar and apply any formatting you want to use.
 7. Add the measure to your matrix so you can see the results.
+
+<br />
+
+### - **SUM**: sum all elements.
+
+```
+SUM(COLUMN_NAME)
+```
+
+<br />
+
+### - **AVERAGE:** return the mean of elemnts in columns.
+```
+AVERAGE(COLUMN_NAME)
+```
+
+<br />
+
+### - **MAX & MIN:** reuturns the max and min numbers in Columns. 
+```
+MAX(Column_name)
+MIN(COlumn_name)
+```
+
+<br />
+
+### - **SUMX:** returns the sum of expression evaluated for each row in a table.
+```
+SUM(table_name,expression)
+```
+
+<br />
+
+### - **DIVIDE:**
+```
+DIVIDE(numerator, denominator, alternateresults)
+```
+
+<br />
+
+### - **COUNT & COUNTROW:** counts the number of cells on  a column that contains numbers.
+
+```
+COUNT(Column_name)
+COUNTROW(table_name)
+```
+
+<br />
+
+### - **CALCULATE:** evalute an expression in a context that is modified by the specified filters.
+
+```
+CALCULATE(expression,filter1,filter2,...)
+```
+
+<br />
+
+### - **FILTER:** reuturns a table that represents a subset of another table or epressions.
+```
+FILTER(table_name,filter)
+```
+
+<br />
+
+### - **ALL**: reutrns all rows in tables or values in columns. It is useful for clearing filters and create calculations on all the rows in table.
+```
+ALL(tbale_name | column_name)
+```
+
